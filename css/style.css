@@ -1,0 +1,144 @@
+/* Saja Naseer */
+@font-face {
+    font-family:Rubik-Italic;
+    src: url(../font/Rubik-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family:Rubik-VariableFont ;
+    src: url(../font/Rubik-VariableFont_wght.ttf);
+}
+.container{
+padding-left: 6%;
+padding-right: 6%;
+}
+.fa-bookmark{
+    background-color: #5267DF;
+    border-radius: 50%; 
+    color: #fff;
+    padding: 9px; 
+    margin-right: 10px;
+}
+.header{
+margin-top: 60px;
+display: flex; 
+justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.navagation{
+    display: flex;
+    word-spacing: 40px;
+}
+a{
+    display: inline-block;
+    font-size: 13px;
+    font-family:Rubik-VariableFont ;
+    color: #242A45;
+}
+.start-button{
+    margin-left: 30px;
+    background-color: #FA5959;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    padding:10px 20px;
+}
+.img-plan1{
+   margin-left: 20px;
+}
+.text{
+    display: flex;
+    margin-top: 120px; 
+}
+.main-text{
+    color:#242A45;
+    font-size: 48px;
+}
+.sub-text{
+    color:#9194A2;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.button{
+border: none;
+border-radius: 10px;
+padding: 20px 30px 20px 30px;
+font-size: 14px;
+}
+.chrom-button{
+    background-color: rgb(82, 10, 223);
+    color: #fff;
+    margin-right: 10px;
+}
+.Firefox-button{
+    background-color: #F7F7F7;
+    color: #242A45;
+}
+.img-plan2{
+    margin-right: 100px;
+}
+.more-info{
+    background-color: #5267DF ;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+}
+.text-center{
+ margin-top: 80px;
+text-align: center;
+}
+.main-center{
+    color: #242A45;
+    font-size: 23px;
+}
+.sub-center{
+    color: #707070;
+    font-size: 18px;
+}
+.serch{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.box{
+margin-top: 50px;
+width: 200px;
+border-color: #707070;
+text-align: center;
+}
+.srech-img{
+    width: 30%;
+    margin-bottom: 10px;
+}
+.add{
+    font-size: 20px;
+    color: #242A45;
+    margin-bottom: 7px;
+}
+.details{
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 40px;
+}
+.line{
+    border: dashed;
+    color: #978686;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+.end-button{
+    background-color:#5267DF ;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+button:hover{
+    background-color:rgb(247,247,247)  ;
+    color: black;
+}
